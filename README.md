@@ -9,25 +9,24 @@ Este proyecto limpia el dataset crudo de Steam y genera un archivo procesado en 
 
 ### Datos
 
-El archivo `data/raw/games.json` (766 MB) es demasiado grande para GitHub y se encuentra en `.gitignore`. 
+Origen de los datos: Los datos fueron obtenidos de Kaggle: Steam Games Dataset
 
 **Opciones para obtenerlo:**
-1. Descargar desde la URL original mencionada en el commit
-2. Contactar con el desarrollador para acceder al archivo
-3. El archivo será descargado automáticamente en futuras versiones
+1. Descargar desde la URL original en Kraggle: [Steam Games Dataset](https://www.kaggle.com/datasets/fronkongames/steam-games-dataset)
 
 ### Cómo ejecutar el pipeline
 
-1. Asegúrate de tener el archivo crudo en `data/raw/games.json`
-2. Ejecuta:
+1. Descargar base de datos en formato .json desde [Steam Games Dataset](https://www.kaggle.com/datasets/fronkongames/steam-games-dataset)
+2. Asegúrate de tener el archivo crudo en `data/raw/games.json`
+3. Ejecuta:
 
-	python limpiadorDatos.py
+	`python limpiadorDatos.py`
 
 ### Cómo abrir la app
 
 1. Ejecuta:
 
-	python app.py
+	`python app.py`
 
 2. Ingresa el precio máximo y selecciona un género.
 3. La pantalla mostrará los juegos ordenados por mejor valoración dentro de esos filtros.
