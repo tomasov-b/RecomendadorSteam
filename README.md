@@ -7,9 +7,18 @@ Este proyecto limpia el dataset crudo de Steam y genera un archivo procesado en 
 - data/processed/games_clean.csv
 - data/processed/genres.json
 
+### Datos
+
+El archivo `data/raw/games.json` (766 MB) es demasiado grande para GitHub y se encuentra en `.gitignore`. 
+
+**Opciones para obtenerlo:**
+1. Descargar desde la URL original mencionada en el commit
+2. Contactar con el desarrollador para acceder al archivo
+3. El archivo será descargado automáticamente en futuras versiones
+
 ### Cómo ejecutar el pipeline
 
-1. Asegúrate de tener el archivo crudo en data/raw/games.json.
+1. Asegúrate de tener el archivo crudo en `data/raw/games.json`
 2. Ejecuta:
 
 	python limpiadorDatos.py
