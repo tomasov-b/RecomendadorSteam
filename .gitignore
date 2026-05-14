@@ -1,0 +1,19 @@
+# Archivos de datos grandes (descargables)
+data/raw/games.json
+
+# Entorno virtual
+.venv/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Cache
+*.cache
+*.tmp
